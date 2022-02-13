@@ -1,12 +1,11 @@
-import photo from './photo.png';
+import React from 'react';
+import Info from "./components/Info";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="header">
-        <img src={photo} className="photo" alt="me" />
-      </header>
+        <Info />
     </div>
   );
 }
