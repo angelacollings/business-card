@@ -12,11 +12,11 @@ describe("Given that the page has a photo", () => {
 })
 describe("Given that the page has an info component", () => {
   test('Then name and title exist', () => {
-  render(<App />);
-  const nameElement = screen.getByText(/Angela Collings/i);
-  expect(nameElement).toBeInTheDocument();
-  const titleElement = screen.getByText(/Software Developer/i);
-  expect(titleElement).toBeInTheDocument();
-});
+    render(<App />);
+    const nameElement = screen.getByText(/Angela Collings/i);
+    expect(nameElement).toBeInTheDocument();
+    const titleElement = screen.getByText(/Software Developer/i);
+    expect(titleElement).toBeInTheDocument();
+  });
 })
 
