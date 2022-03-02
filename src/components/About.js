@@ -8,7 +8,7 @@ const About = () => {
             I am a budding software developer 
             with a passion for problem solving and clean, concise code.
             I enjoy learning new things, 
-            and I try to keep up with latest technologies 
+            and I try to keep up with the latest technologies 
             and industry best practices.
         </p>
         <h3>Interests</h3>
