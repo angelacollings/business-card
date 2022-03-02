@@ -1,4 +1,5 @@
 import { render, screen } from '@testing-library/react';
+import userEvent from "@testing-library/user-event";
 import App from './App';
 
 describe("Given that the page has a photo", () => {
@@ -19,4 +20,10 @@ describe("Given that the page has an info component", () => {
     expect(titleElement).toBeInTheDocument();
   });
 })
-
+describe("Given that the page has an email button", () => {
+  test('Then the email button is displayed', () => {
+    render(<App />);
+    const emailButton = screen.getByRole('button', { name: "Email" });
+    expect(emailButton).toBeInTheDocument();
+  });
+})
