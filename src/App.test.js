@@ -1,5 +1,4 @@
 import { render, screen } from '@testing-library/react';
-import userEvent from "@testing-library/user-event";
 import App from './App';
 
 describe("Given that the page has a photo", () => {
