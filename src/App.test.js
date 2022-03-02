@@ -26,3 +26,12 @@ describe("Given that the page has an email button", () => {
     expect(emailButton).toBeInTheDocument();
   });
 })
+describe("Given that the page has an about component", () => {
+  test('Then about and interests exist', () => {
+    render(<App />);
+    const aboutElement = screen.getByRole('heading', { name: "About" });
+    expect(aboutElement).toBeInTheDocument();
+    const interestsElement = screen.getByRole('heading', { name: "Interests" });
+    expect(interestsElement).toBeInTheDocument();
+  });
+})
