@@ -1,16 +1,15 @@
 import React from "react";
-import photo from '../photo.jpeg';
-import '../App.css';
+import photo from "../photo.jpeg";
+import "./Info.css";
 
 const Info = () => {
-    return (
-        <div className="Info">
-            <img src={photo} className="photo" alt="me"/>
-            <h1>Angela Collings</h1>
-            <h2>Software Developer</h2>
-            <button onClick={() => window.location = 'mailto:angecollings@gmail.com'} class="fa fa-envelope"> Email</button>
-        </div>
-    )
+  return (
+    <div className="Info">
+      <img src={photo} className="Photo" alt="me" />
+      <h1>Angela Collings</h1>
+      <h2>Software Developer</h2>
+    </div>
+  );
 };
 
 export default Info;

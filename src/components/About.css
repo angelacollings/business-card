@@ -1,0 +1,10 @@
+.About {
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 0 5% 5% 5%;
+  height: fit-content;
+  font-size: 1.2rem;
+}
