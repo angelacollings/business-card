@@ -1,25 +1,31 @@
-import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+
 import "./Socials.css";
 
 const Socials = () => {
   return (
     <div className="Socials">
-      <button
+      <FontAwesomeIcon
+        icon={faLinkedin}
         onClick={() =>
           window.open("https://www.linkedin.com/in/angelacollings/", "_blank")
         }
-        class="fa fa-linkedin"
-      ></button>
-      <button
+        className="Icon"
+      />
+      <FontAwesomeIcon
+        icon={faEnvelope}
         onClick={() => (window.location = "mailto:angecollings@gmail.com")}
-        class="fa fa-envelope"
-      ></button>
-      <button
+        className="Icon"
+      />
+      <FontAwesomeIcon
+        icon={faGithub}
         onClick={() =>
           window.open("https://github.com/angelacollings", "_blank")
         }
-        class="fa fa-github"
-      ></button>
+        className="Icon"
+      />
     </div>
   );
 };
