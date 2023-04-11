@@ -4,9 +4,9 @@ import "./Info.css";
 const Info = () => {
   return (
     <div className="Info">
-      <img src={photo} className="Photo" alt="me" />
+      <img src={photo} className="Photo" alt="me" width="200" height="200" />
       <h1>Angela Collings</h1>
-      <h2>Software Developer</h2>
+      <p>Software Developer</p>
     </div>
   );
 };
