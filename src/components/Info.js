@@ -6,7 +6,7 @@ const Info = () => {
     <div className="Info">
       <img src={photo} className="Photo" alt="me" width="200" height="200" />
       <h1>Angela Collings</h1>
-      <p>Software Developer</p>
+      <p>Freelance Software Developer</p>
     </div>
   );
 };
